@@ -32,20 +32,20 @@
 
 
     <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/SAIT/service-worker.js')
-        .then(registration => {
-          console.log('✅ Service Worker зарегистрирован');
-          console.log('Scope:', registration.scope);
-        })
-        .catch(error => {
-          console.log('❌ Ошибка регистрации Service Worker');
-          console.log('Error:', error);
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/SAIT/service-worker.js')
+            .then(registration => {
+              console.log('✅ Service Worker зарегистрирован');
+              console.log('Scope:', registration.scope);
+            })
+            .catch(error => {
+              console.log('❌ Ошибка регистрации Service Worker');
+              console.log('Error:', error);
+            });
         });
-    });
-  }
-</script>
+      }
+    </script>
 
 </body>
 </html>
