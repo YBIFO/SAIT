@@ -1,0 +1,15 @@
+{
+  "name": "Краснодарский край",
+  "short_name": "Краснодар",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "img/Flag.png",
+      "sizes": "150x100",
+      "type": "image/png"
+    }
+  ]
+}

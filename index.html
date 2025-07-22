@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Достопримечательности Краснодарского края</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <img src="img/Flag.png" width="150" height="100"align="left" alt="Краснодарский край">
+        <h1 align="center">Добро пожаловать на сайт о Краснодарском крае!</h1><br>
+    </header>
+
+    <div id="content">
+        <div id="menu">
+            <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="places.html">Достопримечательности</a></li>
+            </ul>
+        </div>
+
+    <div id="article">
+        <img src="img/Кр1.jpg" alt="Краснодарский край" class="article-image" />
+
+
+        <p>
+            В Краснодарском крае много мест, <span class="highlight">где</span> можно <span class="highlight">провести</span> выходные. Это самый южный регион России на Черноморском побережье, который объединил в себе красоту альпийских лугов, реликтовых лесов, лазурной морской воды и тропиков. Кроме этого <span class="highlight">природные места Кубани</span> впечатляют своими масштабами. Немало здесь и рукотворных шедевров.
+        </p>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+    </script>
+
+</body>
+</html>
